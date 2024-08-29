@@ -1,0 +1,48 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    background: black;
+    color: white;
+    margin: 0;
+    display: grid;
+    place-items: center;
+    overflow: hidden;
+}
+
+
+#game .cell{
+    width: 90px;
+    height: 90px;
+    font-size: 3rem;
+    display: grid;
+    place-items: center;
+    border: 1px solid purple;
+    float: left;
+}
+
+#game {
+    width: 276px;
+    text-align: center;
+}
+
+#result{
+    position: relative;
+    top: 10px;
+    height: 1rem;
+    
+}
+
+#result h2{
+    font-size: 2rem;
+    margin-top: 1rem;
+}
+
+#resetButton{
+    border: none;
+    border-radius: 5px;
+    margin-top: 1rem;
+    font-weight: 600;
+    padding: 5px;
+    color: purple;
+}
+
